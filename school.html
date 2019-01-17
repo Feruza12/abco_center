@@ -17,18 +17,18 @@
 
 <body>
 	<div class="container-fluid m-0 p-0">
-		<div class="background_one bg_2 row m-0 justify-content-between" >
-			<div class="col-xl-4 col-lg-4 col-md-4 col-5 margin">
+		<div class="background_one bg_2 row m-0 justify-content-between">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-12 margin">
 				<div class="left_block">	
-					<div class="offset-xl-1 col-10 text-center">
-						<a href="#" class="navbar-brand logo">
+					<div class="offset-xl-1 m-auto col-xl-10 col-lg-10 col-md-10 col-10 text-center">
+						<a href="index.html" class="navbar-brand logo">
 							<img class="img_logo img-fluid" src="img/logo.svg" alt="logo"/>
 						</a>		
 						<h1>БУХГАЛТЕРИЯ ХИЗМАТЛАРИ</h1>			
 						<p>Бухгалтерия касбини эгаллашда 4 боскичли профессионал дастурдан утинг ва ...</p>
 						<p>...сиз рахбар талабига жавоб берувчи Бухгалтер бўласиз!</p>
 						<div class="button">
-							<a href="#" type="" class="btn">РЎЙХАТДАН ЎТИНГ</a>
+							<a href="#modal_2" type="" id="modal_trigger" class="btn">РЎЙХАТДАН ЎТИНГ</a>
 						</div>	
 						<div>
 							<p class="number">+998 71 200 84 85</p>
@@ -38,16 +38,21 @@
 								<li class="list-inline-item"><a href="#"><img src="img/ins.svg" alt=""></a></li>			
 							</ul>	
 						</div>		
+						<div class="block text-center">
+							<p class="offer_fsz"><a href="index.html" class="">БУХГАЛТЕРИЯ МАКТАБИ</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
+			<div class="col-xl-5 col-lg-7 col-md-8 col-6 p-0 display_none_block">
 			<div class="right_block">
 				<div class="flex">			
-					<div class="col-xl-2 col-lg-2 col-md-2 col-2 d-flex align-items-center offers"><p><a href="">БУХГАЛТЕРИЯ МАКТАБИ</a></p></div>
-					<div class="col-xl-4 col-lg-4 col-md-2 col-2 bg_orange">
+					<div class="col-xl-3 col-lg-2 col-md-2 col-3 z_index d-flex align-items-center offers"><p ><a href="index.html" class="">БУХГАЛТЕРИЯ МАКТАБИ</a></p></div>
+					<div class="col-xl-2 col-lg-2 col-md-2 col-1 bg_orange">
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 		<div class="container">
 			<section class="section_first">
@@ -139,19 +144,15 @@
 		<div class="background_reg">
 			<div class="container">
 	  		<div class="header">	
-	  			<h1 >Вақтни бой берманг</h1>
-	    		<h2 >ФУНДАМЕНТАЛ БУХГАЛТЕРИЯ БОСҚИЧИНИНГ БИРИНЧИ БЕПУЛ ДАРСИГА ЁЗИЛИНГ</h2>
+	    		<h2 >НДС БЎЙИЧА БУХГАЛТЕРИЯ ПРОВОДКАЛАРИНИ ЮКЛАБ ОЛИШ</h2>
 	    	</div>    
-    		<form action="" class="form-group">
+    		<form action="" class="form-group justify-content-between">
 					<div class="form-group col">
 						<input class="form-control" type="text" placeholder="Ф.И.Ш">
 					</div>
 					<div class="form-group col">
 						<input class="form-control" type="email" placeholder="Эл.Почта">
 					</div>
-					<div class="form-group col">
-						<input class="form-control" id="phone"  type="text" placeholder="Телефон ракамингиз">
-					</div>				
 					<button class="form-group btn">Юбориш</button>
 				</form>	   
   		</div>
@@ -205,6 +206,33 @@
 	  	</h5>  
 	  </div>
 	</div>
+	<div id="modal_2" class="popupContainer" style="display:none;">
+		<div class="background_reg">
+			<div class="container">
+		  		<div class="header d-flex">	
+		  			<div>
+			  			<h1 >Вақтни бой берманг</h1>
+			    		<h2 >ФУНДАМЕНТАЛ БУХГАЛТЕРИЯ БОСҚИЧИНИНГ БИРИНЧИ БЕПУЛ ДАРСИГА ЁЗИЛИНГ</h2>
+		    		</div>
+		    		<div>
+		    			<span class="modal_close"><img src="img/times.svg" class="img-fluid close" alt=""></span>
+		    		</div>
+		    	</div>    
+	    		<form action="" class="form-group">
+						<div class="form-group col">
+							<input class="form-control" type="text" placeholder="Ф.И.Ш">
+						</div>
+						<div class="form-group col">
+							<input class="form-control" type="email" placeholder="Эл.Почта">
+						</div>
+						<div class="form-group col">
+							<input class="form-control" id="phone"  type="text" placeholder="Телефон ракамингиз">
+						</div>				
+						<button class="form-group btn">Юбориш</button>
+					</form>	 
+				</div>  
+  		</div>
+		</div>
 </div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>

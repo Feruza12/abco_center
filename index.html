@@ -18,9 +18,9 @@
 <body>
 	<div class="container-fluid m-0 p-0 justify-content-between">
 		<div class="background_one bg_1 row m-0 justify-content-between">
-			<div class="col-xl-4 col-lg-4 col-md-4 col-5 margin">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-12 margin">
 				<div class="left_block">	
-					<div class="offset-xl-1 col-10 text-center">
+					<div class="offset-xl-1 m-auto col-xl-10 col-lg-10 col-md-10 col-10 text-center">
 						<a href="#" class="navbar-brand logo">
 							<img class="img_logo img-fluid" src="img/logo.svg" alt="logo"/>
 						</a>		
@@ -38,13 +38,16 @@
 								<li class="list-inline-item"><a href="#"><img src="img/ins.svg" alt=""></a></li>			
 							</ul>	
 						</div>		
+						<div class="block text-center">
+							<p class="offer_fsz"><a href="" class="">Бухгалтерия хизматлари</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-xl-5 col-lg-7 col-md-8 col-6 p-0">
+			<div class="col-xl-5 col-lg-7 col-md-8 col-6 p-0 display_none_block">
 			<div class="right_block">
 				<div class="flex">			
-					<div class="col-xl-3 col-lg-2 col-md-2 col-3 z_index d-flex align-items-center offers"><p ><a href="" class="z_index">Бухгалтерия хизматлари</a></p></div>
+					<div class="col-xl-3 col-lg-2 col-md-2 col-3 z_index d-flex align-items-center offers"><p ><a href="" class="">Бухгалтерия хизматлари</a></p></div>
 					<div class="col-xl-2 col-lg-2 col-md-2 col-1 bg_orange">
 					</div>
 				</div>
@@ -67,8 +70,6 @@
 						<img src="img/bars.svg" alt="icon">
 						<p>КОРХОНАНИНГ АКТИВ ВА ПАССИВ СЧЕТЛАРИНИНГ ЎЗАРО  МУТАНОСИБЛИГИНИ ТУШУНМАСЛИК</p>
 					</div>
-				<!-- </div> -->
-				<!-- <div class="row justify-content-around icon_div"> -->
 					<div class="col-xl-4 col-lg-4 col-md-6 col-12 text-center">
 						<img src="img/timetable.svg" alt="icon">
 						<p> ЎҚИШ СОАТЛАРИНИНГ  БЎШ ВАҚТГА ТЎҒРИ КЕЛМАСЛИГИ</p>
@@ -86,7 +87,6 @@
 		</div>
 		<div class="background_reg">
 			<div class="container">
-				<!-- <div id="modal"> -->
 		  		<div class="header">	
 		  			<h1 >Вақтни бой берманг</h1>
 		    		<h2 >ФУНДАМЕНТАЛ БУХГАЛТЕРИЯ БОСҚИЧИНИНГ БИРИНЧИ БЕПУЛ ДАРСИГА ЁЗИЛИНГ</h2>
@@ -103,7 +103,6 @@
 						</div>				
 						<button class="form-group btn">Юбориш</button>
 					</form>	 
-				<!-- </div>   -->
   		</div>
 		</div>
 		<div class="container">
@@ -142,19 +141,15 @@
 		<div class="background_reg">
 			<div class="container">
 	  		<div class="header">	
-	  			<h1 >Вақтни бой берманг</h1>
-	    		<h2 >ФУНДАМЕНТАЛ БУХГАЛТЕРИЯ БОСҚИЧИНИНГ БИРИНЧИ БЕПУЛ ДАРСИГА ЁЗИЛИНГ</h2>
+	    		<h2 >НДС БЎЙИЧА БУХГАЛТЕРИЯ ПРОВОДКАЛАРИНИ ЮКЛАБ ОЛИШ</h2>
 	    	</div>    
-    		<form action="" class="form-group">
+    		<form action="" class="form-group justify-content-between">
 					<div class="form-group col">
 						<input class="form-control" type="text" placeholder="Ф.И.Ш">
 					</div>
 					<div class="form-group col">
 						<input class="form-control" type="email" placeholder="Эл.Почта">
 					</div>
-					<div class="form-group col">
-						<input class="form-control" id="phone"  type="text" placeholder="Телефон ракамингиз">
-					</div>				
 					<button class="form-group btn">Юбориш</button>
 				</form>	   
   		</div>
@@ -312,8 +307,8 @@
   		<div class="container">
   			<div class="row justify-content-between">
   				<div class="col-xl-3 col-lg-4 col-md-4 col-12">
-  					<h1 class="heading_1">Есть вопрос?</h1>
-  		 			<h2 class="heading_2 send_us">ОТПРАВЬТЕ НАМ</h2>
+  					<h1 class="heading_1">Савол туғилдими?</h1>
+  		 			<h2 class="heading_2 send_us">БИЗГА ЮБОРИНГ</h2>
   		 			<form action="" class="form-group ">
 							<div class="form-group col">
 								<input class="form-control" type="text" placeholder="Ф.И.О">
@@ -322,18 +317,18 @@
 								<input class="form-control" type="email" placeholder="Эл.Почта">
 							</div>
 							<div class="form-group col">
-								<textarea class="form-control" id=""  type="textarea" placeholder="Вопрос"> Вопрос</textarea>
+								<textarea class="form-control"  type="textarea" placeholder="Вопрос">Савол</textarea>
 							</div>				
 							<button class="form-group btn btn-primary">Юбориш</button>
 						</form>
   				</div>
   			<div class="col-xl-3 col-lg-3 col-md-3 col-12">
-  				<h3 class="heading_1 head">Контакты</h3>
-  				<p class="mrg"><span>Адрес</span> <br>г.Ташкент, ул. Самарканд Дарвоза 9-дом</p>
-  				<p><span>Номер телефона</span> <br>+998 71 200 84 85</p>
+  				<h3 class="heading_1 head">БОҒЛАНИШ</h3>
+  				<p class="mrg"><span>Манзил</span> <br>г.Ташкент, ул. Самарканд Дарвоза 9-дом</p>
+  				<p><span>Телефон ракам</span> <br>+998 71 200 84 85</p>
   				<p><span>Эл. почта</span> <br>info@abco.uz</p>
   				<div class="d-flex">
-  					<p><span>Социальные сети:</span>
+  					<p><span>Ижтимоий тармок: </span>
 						<ul class="list-inline">
 								<li class="ml-2  list-inline-item"><a href="#"><img src="img/tg_grey.svg" alt=""></a></li>
 								<li class="list-inline-item"><a href="#"><img src="img/fb_grey.svg" alt=""></a></li>
